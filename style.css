@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+body{
+    background-image: url(new\ bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #fdf401;
+    width: 300px;
+    margin-top: -8px;
+}
+.surveyForm{
+    margin-top: 50px;
+    margin-left: 500px;
+    width: 400px;
+    height: 1100px;
+    background-color: #f3ec2e;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 20px;
+}
+h1{
+    font-family: 'PT Sans', sans-serif;
+}
+p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+input{
+    font-family: 'PT Sans', sans-serif;
+
+}
+#city{
+    margin-top: 15px;
+}
+#postal{
+    margin-top: 15px;
+}
+#surname{
+    margin-left: 15px;
+}
+#area{
+    width: 65px;
+}
+#number{
+    width: 120px;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+}
+.button {
+    background-color: #242424; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 140px;
+    margin-top: 30px;
+}
+.button {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #242424; 
+    color: #f3ec2e;
+}
+
+@media only screen and (max-width: 500px) {
+   .surveyForm{
+       width: 250px;
+       height: 1300px;
+       margin-left: 50px;
+   }
+   textarea{
+       width: 200px;
+       height: 100px;
+   }
+   .button {
+    background-color: #242424; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#country{
+    margin-top: 15px;
+    width: 100px;
+}
+#secondname{
+    margin-top: 10px;
+}
+#email{
+    width: 200px;
+}
+#state{
+    margin-top: 15px;
+}
+.header{
+    margin-left: 35px;
+}
+.button {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #242424; 
+    color: #f3ec2e;
+}
+}
+@media only screen and (min-width: 750px) {
+    .surveyForm{
+        width: 350px;
+        height: 1150px;
+        margin-left: 180px;
+    }
+    textarea{
+        width: 250px;
+        height: 100px;
+    }
+    .button {
+     background-color: #242424; 
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 13px;
+     margin-left: 70px;
+     margin-top: 20px;
+ }
+ #country{
+     margin-top: 15px;
+     width: 100px;
+ }
+ #secondname{
+     margin-top: 10px;
+ }
+ #email{
+     width: 200px;
+ }
+ #state{
+     margin-top: 15px;
+ }
+ .header{
+     margin-left: 10px;
+ }
+ .button {
+     -webkit-transition-duration: 0.4s; 
+     transition-duration: 0.4s;
+ }
+ 
+ .button:hover {
+     background-color: #242424; 
+     color: #f3ec2e;
+ }
+ }
+ @media only screen and (min-width: 1020px) {
+    .surveyForm{
+        width: 350px;
+        height: 1150px;
+        margin-left: 300px;
+    }
+    textarea{
+        width: 250px;
+        height: 100px;
+    }
+    .button {
+     background-color: #242424; 
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 13px;
+     margin-left: 70px;
+     margin-top: 20px;
+ }
+ #country{
+     margin-top: 15px;
+     width: 100px;
+ }
+ #secondname{
+     margin-top: 10px;
+ }
+ #email{
+     width: 200px;
+ }
+ #state{
+     margin-top: 15px;
+ }
+ .header{
+     margin-left: 15px;
+ }
+ .button {
+     -webkit-transition-duration: 0.4s; 
+     transition-duration: 0.4s;
+ }
+ 
+ .button:hover {
+     background-color: #242424; 
+     color: #f3ec2e;
+ }
+ }
+ @media only screen and (min-width: 1200px) {
+    .surveyForm{
+        width: 400px;
+        height: 1150px;
+        margin-left: 500px;
+    }
+    textarea{
+        width: 300px;
+        height: 100px;
+    }
+    .button {
+     background-color: #242424; 
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 13px;
+     margin-left: 100px;
+     margin-top: 20px;
+ }
+ #country{
+     margin-top: 15px;
+     width: 100px;
+ }
+ #secondname{
+     margin-top: 10px;
+ }
+ #email{
+     width: 200px;
+ }
+ #state{
+     margin-top: 15px;
+ }
+ 
+ .button {
+     -webkit-transition-duration: 0.4s; 
+     transition-duration: 0.4s;
+ }
+ 
+ .button:hover {
+     background-color: #242424; 
+     color: #f3ec2e;
+ }
+ }
